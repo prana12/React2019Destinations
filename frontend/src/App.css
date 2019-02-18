@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Added styling */
+.container,
+.container-fluid {
+  margin-top: 20px;
+}
+
+div.brandContainer {
+  color: #d2baa0;
+  font-family: monospace;
+  font-size: 1em;
+}
+
+span.brandYear {
+  color: #d66c0b;
+  font-size: 1.2em;
+}
+
+.homePageQuote {
+  text-align: center;
+  font-style: oblique;
+  font-size: 2em;
+  color: #3b3937;
+  font-family: fantasy;
+}
+
+.listTitle {
+  margin: 0.2em;
+  padding: 2em;
+  font-family: monospace;
+  box-shadow: 7px 7px 50px -10px rgba(0, 0, 0, 0.5);
+  vertical-align: middle;
+}
