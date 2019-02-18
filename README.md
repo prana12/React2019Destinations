@@ -1,6 +1,6 @@
 # React2019Destinations
 
-A basic CRUD web application built using Spring Boot and React JS. Users can browse the top 10 cities to travel in 2019 as recommeded by lonelyplanet website. 
+A basic demo web application built using Spring Boot and React JS. Users can browse the top 10 cities to travel in 2019 as recommeded by lonelyplanet website. 
 Information about cities is stored in a json file in data folder. At the start of the application, the information is read by object mapper and list is initialized for application.
 The application makes use of H2, one of the popular in memory databases(which Spring has very good integration) to hold application data.
 The home page includes the navbar(with links to Home, Admin and Github website) and body contains link to access full list of cities. 
