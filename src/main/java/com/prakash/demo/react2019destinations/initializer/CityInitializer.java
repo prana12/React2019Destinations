@@ -38,7 +38,7 @@ public class CityInitializer implements CommandLineRunner {
             cities = (List)this.mapper.readValue(IOUtils.toString((InputStream)this.getClass().getResourceAsStream(citiesJson), (Charset)StandardCharsets.UTF_8), new TypeReference<List<City>>() {});
         }
         catch (IOException e) {
-            this.log.error("Could not pre-populate the collection 'City' with the predefined JSON data in {} due to the occurrence of an IO Exception.", (Object)citiesJson);
+            this.log.error("Could not pre-populate the collection 'City' with the predefined JSON data in {} due to the occurrence of an IO Exception.", citiesJson);
             cities = Collections.emptyList();
         }
         for (City tempCity : cities) {
