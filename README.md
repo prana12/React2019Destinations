@@ -8,7 +8,7 @@ User can click on any of the city images to find the details(which includes big 
 
 Following technologies were used;
 
-Spring Core
+Spring Boot
 Spring Data JPA
 Spring Rest API
 React JS
